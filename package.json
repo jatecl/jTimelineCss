@@ -1,0 +1,36 @@
+{
+  "name": "jtimelinecss",
+  "version": "1.0.0",
+  "description": "让jTimeline支持style",
+  "main": "lib/jTimelineCss.js",
+  "scripts": {
+    "test": "webpack-dev-server --mode=development --host=0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jatecl/jTimelineCss.git"
+  },
+  "keywords": [
+    "jtimeline"
+  ],
+  "author": "Jat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jatecl/jTimelineCss/issues"
+  },
+  "homepage": "https://github.com/jatecl/jTimelineCss#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-watch": "^2.0.7",
+    "webpack": "^4.16.5"
+  },
+  "dependencies": {
+    "jmove": "git+https://github.com/jatecl/jMove.git",
+    "jtimeline": "git+https://github.com/jatecl/jTimeline.git"
+  }
+}
