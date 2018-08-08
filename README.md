@@ -1,6 +1,10 @@
 # jTimelineCss
 让jTimeline支持style
+```
+npm install https://github.com/jatecl/jTimelineCss.git --save
+```
 
+## 示例
 ```javascript
 var jTimeline = require("jtimelinecss");
 
