@@ -4,7 +4,8 @@
   "description": "让jTimeline支持style",
   "main": "lib/jTimelineCss.js",
   "scripts": {
-    "test": "webpack-dev-server --mode=development --host=0.0.0.0"
+    "test": "webpack-dev-server --mode=development --host=0.0.0.0",
+    "build": "babel src/ -d lib/"
   },
   "repository": {
     "type": "git",
